@@ -123,7 +123,7 @@ function tinhTienThue() {
         tienThue = sauThue * 0.35;
     }
 
-    document.getElementById("txtTinhThue").innerHTML = "Họ tên: " + ten2 + ". Tiền thuế thu nhập cá nhân: " + new Intl.NumberFormat('vn-VN').format(tienThue);
+    document.getElementById("txtTinhThue").innerHTML = "Họ tên: " + ten2 + ". Tiền thuế thu nhập cá nhân: " + new Intl.NumberFormat('vn-VN').format(tienThue) + " VND";
 
 }
 
